@@ -47,7 +47,7 @@ export default function WebsitesServer() {
                 <ul className=' grid grid-cols-1 md:grid-cols-2 gap-5'>
                     {
                         websitesData.map((el) => 
-                            <li onClick={() => handleClick(el)} key={el.heading} className=' flex flex-col items-center text-center' >
+                            <li onClick={() => handleClick(el)} key={el.heading} className=' cursor-pointer flex flex-col items-center text-center' >
                                 <div className=' relative h-48 w-72'>
                                     <Image src={el.image} alt={el.subHeading} className=' absolute object-cover shadow-lg' fill />
                                 </div>
