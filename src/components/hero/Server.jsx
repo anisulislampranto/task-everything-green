@@ -11,22 +11,22 @@ export default function HeroServer() {
             <div className=' flex gap-5 lg:gap-10 justify-between flex-col items-center lg:items-start text-white'>
                 <h1 className='text-3xl md:text-5xl font-bold text-center lg:text-start'>Unlock Insights for a Greener Future!</h1>
                 <div className=" flex text-center lg:text-start">
-                    <p> 
+                    <div> 
                         Download our comprehensive whitepaper now and embark on a journey towards 
-                            <span className=' inline-block'>
-                                <span className=' flex items-center'>
+                            <div className=' inline-block'>
+                                <div className=' flex items-center'>
                                     a more sustainable future. 
                                     <p className="relative justify-center items-center group inline ml-1">
                                         <span className="font-bold text-green-600 rounded">
                                             <AiOutlineExclamationCircle />
                                         </span>
-                                        <div className=" -left-48 lg:-left-28 absolute top-full mt-2 hidden group-hover:block w-60 text-center bg-white text-black text-sm rounded p-5">
+                                        <span className=" -left-48 lg:-left-28 absolute top-full mt-2 hidden group-hover:block w-60 text-center bg-white text-black text-sm rounded p-5">
                                             Find out how many visitors from different traffic sources interact with your website.
-                                        </div>
+                                        </span>
                                     </p>
-                                </span>
-                            </span>  
-                    </p>
+                                </div>
+                            </div>  
+                    </div>
                     
                 </div>
 

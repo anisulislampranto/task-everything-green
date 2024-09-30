@@ -33,7 +33,7 @@ export default function HeaderClient() {
 
                 <hr className=' text-[#fff] lg:w-[30%] xl:w-[45%] hidden lg:block' />
 
-                <ul className=' hidden lg:flex text-white items-center justify-between gap-5'>
+                <ul className=' hidden lg:flex text-white items-center justify-between gap-5 font-poppinsRegular'>
                     {
                         navLinks.map((el) => 
                             <Link href={'/'} className=' text-[#fff] hover:text-[#96BEBA] cursor-pointer ' key={el}>{el}</Link>
@@ -50,7 +50,7 @@ export default function HeaderClient() {
                     }
                 </button>
             </div>
-            <ul className={`bg-white z-50 absolute top-24 ${open ? 'block' : 'hidden'} text-center w-full flex gap-5 flex-col py-10`}>
+            <ul className={`bg-white z-50 absolute top-24 ${open ? 'block' : 'hidden'} text-center w-full flex gap-5 flex-col py-10 font-poppinsRegular`}>
                 {
                     navLinks.map(el => 
                         <Link href={'/'} className='hover:text-[#96BEBA]' key={el} >{el}</Link>
