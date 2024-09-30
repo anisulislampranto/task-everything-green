@@ -1,4 +1,5 @@
 import "./globals.css";
+import FooterServer from "@/components/globals/footer/Server";
 import HeaderClient from "@/components/globals/header/Client";
 
 export const metadata = {
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
       <body className={``}>
         <HeaderClient />
         {children}
+        <FooterServer />
       </body>
     </html>
   );
