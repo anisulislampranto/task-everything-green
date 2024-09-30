@@ -7,6 +7,8 @@ module.exports = {
         poppinsRegular: ["poppinsRegular", "sans-serif"],
         poppinsLight: ["poppinsLight", "sans-serif"],
         poppinsExtraLight: ["poppinsExtraLight", "sans-serif"],
+        robotoMedium: ["robotoMedium", "sans-serif"],
+        robotoRegular: ["robotoRegular", "sans-serif"],
       },
       backgroundImage: {
         "custom-gradient":
