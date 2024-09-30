@@ -1,6 +1,7 @@
 import HeroServer from "@/components/hero/Server";
 import "./globals.css";
 import WebsitesServer from "@/components/websites/Server";
+import TestNowServer from "@/components/testNow/Server";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         centers and operations.
       </p>
       <WebsitesServer />
+      <TestNowServer />
     </div>
   );
 }
