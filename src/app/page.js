@@ -1,8 +1,9 @@
-import HeroServer from "@/components/hero/Server";
 import "./globals.css";
+import HeroServer from "@/components/hero/Server";
 import WebsitesServer from "@/components/websites/Server";
 import TestNowServer from "@/components/testNow/Server";
 import NewsletterServer from "@/components/newsletter/Server";
+import ClaimCertificateServer from "@/components/claimCertificate/Server";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <WebsitesServer />
       <TestNowServer />
       <NewsletterServer />
+      <ClaimCertificateServer />
     </div>
   );
 }
