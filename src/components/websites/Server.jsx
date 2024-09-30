@@ -43,7 +43,7 @@ export default function WebsitesServer() {
     return (
         <>
             <div className=' max-w-3xl mx-auto space-y-10 py-10'>
-                <h1 className=' text-5xl text-[#1a9876] text-center flex flex-col items-center font-bold'> <span>sustainable</span>example websites</h1>
+                <h1 className=' text-5xl text-[#1a9876] font-poppinsBold text-center flex flex-col items-center'> <span>sustainable</span>example websites</h1>
                 <ul className=' grid grid-cols-1 md:grid-cols-2 gap-5'>
                     {
                         websitesData.map((el) => 

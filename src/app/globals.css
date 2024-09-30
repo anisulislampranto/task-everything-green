@@ -30,6 +30,15 @@
 }
 
 @font-face {
+    font-family: "poppinsBold";
+    src: url("/fonts/Poppins-Bold.woff") format("woff"),
+    url("/fonts/Poppins-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
     font-family: "robotoMedium";
     src: url("/fonts/Roboto-Medium.woff") format("woff"),
     url("/fonts/Roboto-Medium.woff") format("woff");
